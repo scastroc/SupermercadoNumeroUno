@@ -1,0 +1,11 @@
+D:\Prueba .Net\SupermercadoNumeroUno\Biblioteca\bin\Debug\Biblioteca.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Biblioteca\bin\Debug\Biblioteca.pdb
+D:\Prueba .Net\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.csprojResolveAssemblyReference.cache
+D:\Prueba .Net\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.pdb
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.pdb

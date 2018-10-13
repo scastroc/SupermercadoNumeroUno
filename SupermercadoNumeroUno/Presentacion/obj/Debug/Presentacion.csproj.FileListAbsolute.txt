@@ -1,0 +1,109 @@
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\ApplicationInsights.config
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\csc.exe
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\vbc.exe
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\VBCSCompiler.exe
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Presentacion.dll.config
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Presentacion.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Presentacion.pdb
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.DependencyCollector.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Web.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.WindowsServer.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.ApplicationInsights.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.DependencyCollector.xml
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Web.xml
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.WindowsServer.xml
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.ApplicationInsights.xml
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.csprojResolveAssemblyReference.cache
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.pdb
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Biblioteca.dll
+D:\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Biblioteca.pdb
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\ApplicationInsights.config
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\csc.exe
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Presentacion.dll.config
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Presentacion.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Presentacion.pdb
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Biblioteca.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Web.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Biblioteca.pdb
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Web.xml
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Sebastian\Documents\Desarrollo en .Net 2\Prueba .Net\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\ApplicationInsights.config
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\csc.exe
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\vbc.exe
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Presentacion.dll.config
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Presentacion.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Presentacion.pdb
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Biblioteca.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Web.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Biblioteca.pdb
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.Web.xml
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\Sebastian\Desktop\SupermercadoNumeroUno\Presentacion\obj\Debug\Presentacion.pdb

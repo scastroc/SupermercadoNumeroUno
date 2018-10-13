@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="template.master.cs" Inherits="Presentacion.app.site.template.template" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" runat="server" 
+        media="screen" href="../../css/menu.css" />
+    <link rel="stylesheet" runat="server" 
+        media="screen" href="../../css/responsive.css" />
+    <link rel="stylesheet" runat="server" media="screen"
+		href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <script src="../js/menu.js"  type="text/javascript" ></script> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frm_main_content" runat="server">
+	<div id="pnl-menu" class="menu">
+		<div>
+			<a href="#" class="btn-close" onclick="fn_menu_hidden()">&times;</a>
+		</div>
+
+		<ul>
+			<li style="float: left; width: 100%;"><a
+				href="registrar_empleado.aspx"
+				style="width: 100%;"> <i style="float: left;"
+					class="material-icons">list</i><span class="menu-name">Registrar Empleados</span>
+			</a></li>
+			<li style="float: left; width: 100%;"><a
+				href="listar_empleado.aspx"
+				style="width: 100%;"> <i style="float: left;"
+					class="material-icons">list</i><span class="menu-name">Listar Empleados</span>
+			</a></li>
+            <li style="float: left; width: 100%;"><a
+				href="buscar_empleado.aspx"
+				style="width: 100%;"> <i style="float: left;"
+					class="material-icons">list</i><span class="menu-name">Buscar Empleados</span>
+			</a></li>
+		</ul>
+
+	</div>
+
+	<div id="pnl-container" class="container">
+		<div id="pnl-title" class="container-title">
+			<a id="btn-menu-open" class="open open-close"
+				href="javascript:void(0)" onclick="fn_menu_show()"> <i
+				class="material-icons">menu</i> Registro De Empleados
+			</a> <a id="btn-menu-close" class="close open-close" href="#"
+				onclick="fn_menu_hidden()"> <i class="material-icons">menu
+					</i>Registro De Empleados
+			</a>
+		</div>
+		<div id="pnl-body" style="max-width:600px;margin:auto;margin-top: 10px;">
+            <asp:ContentPlaceHolder ID="content" runat="server">
+            </asp:ContentPlaceHolder>
+		</div>
+	</div>
+
+    </form>
+</body>
+</html>

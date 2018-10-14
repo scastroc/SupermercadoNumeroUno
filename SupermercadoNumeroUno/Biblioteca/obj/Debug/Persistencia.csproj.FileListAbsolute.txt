@@ -1,0 +1,6 @@
+C:\Users\Sebastian\Source\Repos\scastroc\SupermercadoNumeroUno\SupermercadoNumeroUno\Biblioteca\bin\Debug\Biblioteca.dll
+C:\Users\Sebastian\Source\Repos\scastroc\SupermercadoNumeroUno\SupermercadoNumeroUno\Biblioteca\bin\Debug\Biblioteca.pdb
+C:\Users\Sebastian\Source\Repos\scastroc\SupermercadoNumeroUno\SupermercadoNumeroUno\Biblioteca\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\Users\Sebastian\Source\Repos\scastroc\SupermercadoNumeroUno\SupermercadoNumeroUno\Biblioteca\obj\Debug\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian\Source\Repos\scastroc\SupermercadoNumeroUno\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.dll
+C:\Users\Sebastian\Source\Repos\scastroc\SupermercadoNumeroUno\SupermercadoNumeroUno\Biblioteca\obj\Debug\Biblioteca.pdb

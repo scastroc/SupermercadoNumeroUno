@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="business\exception\BusinessException.cs" />
+    <Compile Include="business\rules\ComunaBusiness.cs" />
+    <Compile Include="business\rules\DireccionBusiness.cs" />
+    <Compile Include="business\rules\EmpleadoBusiness.cs" />
     <Compile Include="business\rules\generic\EmptyRule.cs" />
+    <Compile Include="business\rules\TipoEmpleadoBusiness.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="business\rules\impl\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca\Persistencia.csproj">
+      <Project>{f84138ff-723f-454d-b583-f85d467caa64}</Project>
+      <Name>Persistencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

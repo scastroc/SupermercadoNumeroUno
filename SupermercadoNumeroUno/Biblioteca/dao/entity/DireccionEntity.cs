@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.libreria
 {
-    public class Direccion
+    public class DireccionEntity
     {
         private string nombreCalle;
         private int numero;
-        private Comuna comuna;
+        private ComunaEntity comuna;
 
-        public Direccion()
+        public DireccionEntity()
         {
 
         }
@@ -44,7 +44,7 @@ namespace Biblioteca.libreria
             }
         }
 
-        public Comuna Comuna
+        public ComunaEntity Comuna
         {
             get
             {

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.libreria
 {
-    public class TipoEmpleado
+    public class TipoEmpleadoEntity
     {
         private string codigo;
         private string nombre;
 
-        public TipoEmpleado()
+        public TipoEmpleadoEntity()
         {
 
         }

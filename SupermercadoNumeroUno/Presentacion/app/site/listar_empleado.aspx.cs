@@ -10,7 +10,7 @@ namespace Presentacion.app.site
 {
     public partial class listar_empleado : System.Web.UI.Page
     {
-        private List<Empleado> empleados;
+        private List<EmpleadoEntity> empleados;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -31,11 +31,11 @@ namespace Presentacion.app.site
 
         private void cargaListaEmpleados()
         {
-            List<Empleado> listaEmpleados = (List<Empleado>)Session["empleados"];
+            List<EmpleadoEntity> listaEmpleados = (List<EmpleadoEntity>)Session["empleados"];
 
             if (listaEmpleados == null || listaEmpleados.Count == 0)
             {
-                empleados = new List<Empleado>();
+                empleados = new List<EmpleadoEntity>();
             }
             else
             {
@@ -49,7 +49,7 @@ namespace Presentacion.app.site
             //}
             //else
             //{
-            //    empleados = new List<Empleado>();
+            //    empleados = new List<EmpleadoEntity>();
             //}
 
             
@@ -71,19 +71,19 @@ namespace Presentacion.app.site
             string remuneracion = row.Cells[9].Text;
             string fechaNacimiento = row.Cells[10].Text;
 
-            Empleado actualizarEmp = new Empleado();
-            actualizarEmp.Direccion = new Direccion();
+            EmpleadoEntity actualizarEmp = new EmpleadoEntity();
+            actualizarEmp.Direccion = new DireccionEntity();
 
             actualizarEmp.Nombres = nombres;
             actualizarEmp.ApellidoPaterno = apePaterno;
             actualizarEmp.ApellidoMaterno = apeMaterno;
             actualizarEmp.Run = run;
-            TipoEmpleado tipoEmp = new TipoEmpleado();
+            TipoEmpleadoEntity tipoEmp = new TipoEmpleadoEntity();
             tipoEmp.Nombre = tipoEmpleados;
             actualizarEmp.TipoEmpleado = tipoEmp;
             actualizarEmp.Direccion.NombreCalle = calle;
             actualizarEmp.Direccion.Numero = Int32.Parse(numero);
-            Comuna comu = new Comuna();
+            ComunaEntity comu = new ComunaEntity();
             comu.Nombre = comuna;
             actualizarEmp.Direccion.Comuna = comu;
             actualizarEmp.Telefono = Int32.Parse(telefono);
@@ -101,7 +101,7 @@ namespace Presentacion.app.site
         {
             GridViewRow row = tbl_empleados.Rows[e.RowIndex];
             string run = row.Cells[3].Text;
-            Empleado deleteEmpleado = empleados.FirstOrDefault(
+            EmpleadoEntity deleteEmpleado = empleados.FirstOrDefault(
                 empleado => empleado.Run == run);
             empleados.Remove(deleteEmpleado);
             refrescarTabla();

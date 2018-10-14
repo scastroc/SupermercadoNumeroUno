@@ -10,7 +10,7 @@ namespace Presentacion.app.site
 {
     public partial class buscar_empleado : System.Web.UI.Page
     {
-        private List<Empleado> empleados;
+        private List<EmpleadoEntity> empleados;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -18,7 +18,7 @@ namespace Presentacion.app.site
 
 
 
-            //Empleado buscarEmp = empleados.FirstOrDefault(
+            //EmpleadoEntity buscarEmp = empleados.FirstOrDefault(
             //    empleado => empleado.Run == run);
 
 
@@ -26,11 +26,11 @@ namespace Presentacion.app.site
 
         private void cargaListaEmpleados()
         {
-            List<Empleado> listaEmpleados = (List<Empleado>)Session["empleados"];
+            List<EmpleadoEntity> listaEmpleados = (List<EmpleadoEntity>)Session["empleados"];
 
             if (listaEmpleados == null || listaEmpleados.Count == 0)
             {
-                empleados = new List<Empleado>();
+                empleados = new List<EmpleadoEntity>();
             }
             else
             {

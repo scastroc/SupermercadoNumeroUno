@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Biblioteca.libreria
 {
-    public class Empleado
+    public class EmpleadoEntity
     {
         private string nombres;
         private string apellidoPaterno;
         private string apellidoMaterno;
         private string run;
-        private TipoEmpleado tipoEmpleado;
-        private Direccion direccion;
+        private TipoEmpleadoEntity tipoEmpleado;
+        private DireccionEntity direccion;
         private int telefono;
         private int remuneracion;
         private DateTime fechaNacimiento;
 
-        public Empleado()
+        public EmpleadoEntity()
         {
 
         }
@@ -75,7 +75,7 @@ namespace Biblioteca.libreria
             }
         }
 
-        public TipoEmpleado TipoEmpleado
+        public TipoEmpleadoEntity TipoEmpleado
         {
             get
             {
@@ -88,7 +88,7 @@ namespace Biblioteca.libreria
             }
         }
 
-        public Direccion Direccion
+        public DireccionEntity Direccion
         {
             get
             {

@@ -10,9 +10,9 @@ namespace Presentacion.app.site
 {
     public partial class registrar_empleado : System.Web.UI.Page
     {
-        private List<TipoEmpleado> tipos;
-        private List<Empleado> empleados;
-        private List<Comuna> comunas;
+        private List<TipoEmpleadoEntity> tipos;
+        private List<EmpleadoEntity> empleados;
+        private List<ComunaEntity> comunas;
         
 
         protected void Page_Load(object sender, EventArgs e)
@@ -25,7 +25,7 @@ namespace Presentacion.app.site
                 cargarTipoEmpleados();
                 cargarComunas();
 
-                Empleado updateEmp = (Empleado)Session["updateEmp"];
+                EmpleadoEntity updateEmp = (EmpleadoEntity)Session["updateEmp"];
 
                 if (updateEmp != null)
                 {
@@ -39,9 +39,9 @@ namespace Presentacion.app.site
                     txt_numero.Text = updateEmp.Direccion.Numero.ToString();
                     txt_fecha_nacimiento.Text = updateEmp.FechaNacimiento.ToString("yyyy-MM-dd");
                     txt_fecha_nacimiento.DataBind();
-                    //cmb_tipo_empleado.Text = updateEmp.TipoEmpleado.Nombre.ToString();
+                    //cmb_tipo_empleado.Text = updateEmp.TipoEmpleadoEntity.Nombre.ToString();
                     //cmb_tipo_empleado.DataBind();
-                    //cmb_comuna.Text = updateEmp.Direccion.Comuna.Nombre.ToString();
+                    //cmb_comuna.Text = updateEmp.DireccionEntity.ComunaEntity.Nombre.ToString();
                     //cmb_comuna.DataBind();
 
 
@@ -62,7 +62,7 @@ namespace Presentacion.app.site
         
         private void crearEmpleados()
         {
-            List<Empleado> listaEmpleados = (List<Empleado>)Session["empleados"];
+            List<EmpleadoEntity> listaEmpleados = (List<EmpleadoEntity>)Session["empleados"];
 
             if (listaEmpleados != null)
             {
@@ -71,29 +71,29 @@ namespace Presentacion.app.site
             }
             else
             {
-                empleados = new List<Empleado>();
+                empleados = new List<EmpleadoEntity>();
             }
         }
 
         private void cargarTipoEmpleados()
         {
-            TipoEmpleado jefeTi = new TipoEmpleado();
+            TipoEmpleadoEntity jefeTi = new TipoEmpleadoEntity();
             jefeTi.Codigo = "01";
             jefeTi.Nombre = "Jefe TI";
 
-            TipoEmpleado programador = new TipoEmpleado();
+            TipoEmpleadoEntity programador = new TipoEmpleadoEntity();
             programador.Codigo = "02";
             programador.Nombre = "Programador";
 
-            TipoEmpleado cajera = new TipoEmpleado();
+            TipoEmpleadoEntity cajera = new TipoEmpleadoEntity();
             cajera.Codigo ="03";
             cajera.Nombre = "Cajera";
 
-            TipoEmpleado supervisor = new TipoEmpleado();
+            TipoEmpleadoEntity supervisor = new TipoEmpleadoEntity();
             supervisor.Codigo = "04";
             supervisor.Nombre = "Supervisor";
 
-            tipos = new List<TipoEmpleado>();
+            tipos = new List<TipoEmpleadoEntity>();
             tipos.Add(jefeTi);
             tipos.Add(programador);
             tipos.Add(cajera);
@@ -108,19 +108,19 @@ namespace Presentacion.app.site
         private void cargarComunas()
         {
 
-            Comuna santiago = new Comuna();
+            ComunaEntity santiago = new ComunaEntity();
             santiago.Codigo = 1;
             santiago.Nombre = "Santiago";
 
-            Comuna maipu = new Comuna();
+            ComunaEntity maipu = new ComunaEntity();
             maipu.Codigo = 2;
             maipu.Nombre = "Maipu";
 
-            Comuna penaflor = new Comuna();
+            ComunaEntity penaflor = new ComunaEntity();
             penaflor.Codigo = 3;
             penaflor.Nombre = "Peñaflor";
 
-            comunas = new List<Comuna>();
+            comunas = new List<ComunaEntity>();
             comunas.Add(santiago);
             comunas.Add(maipu);
             comunas.Add(penaflor);
@@ -140,26 +140,26 @@ namespace Presentacion.app.site
             {
                 validar();
 
-                Empleado nuevoEmpleado = new Empleado();
-                nuevoEmpleado.Direccion = new Direccion();
+                EmpleadoEntity nuevoEmpleado = new EmpleadoEntity();
+                nuevoEmpleado.Direccion = new DireccionEntity();
 
                 nuevoEmpleado.Nombres = txt_nombres.Text;
                 nuevoEmpleado.ApellidoPaterno = txt_apellidoPaterno.Text;
                 nuevoEmpleado.ApellidoMaterno = txt_apellidoMaterno.Text;
                 nuevoEmpleado.Run = txt_run.Text;
 
-                TipoEmpleado tipoEmpSeleccion = ((List<TipoEmpleado>)Session["tipoEmpleados"]).
+                TipoEmpleadoEntity tipoEmpSeleccion = ((List<TipoEmpleadoEntity>)Session["tipoEmpleados"]).
                     FirstOrDefault(
                     tipos => tipos.Codigo == cmb_tipo_empleado.SelectedValue);
-                TipoEmpleado newTipoEmp = new TipoEmpleado();
+                TipoEmpleadoEntity newTipoEmp = new TipoEmpleadoEntity();
                 newTipoEmp.Nombre = tipoEmpSeleccion.Nombre;
                 newTipoEmp.Codigo = tipoEmpSeleccion.Codigo;
                 nuevoEmpleado.TipoEmpleado = newTipoEmp;
                 nuevoEmpleado.Direccion.NombreCalle = txt_nombre_calle.Text;
                 nuevoEmpleado.Direccion.Numero = Int32.Parse(txt_numero.Text);
-                Comuna comunaSeleccion = ((List<Comuna>)Session["comunas"]).FirstOrDefault(
+                ComunaEntity comunaSeleccion = ((List<ComunaEntity>)Session["comunas"]).FirstOrDefault(
                     comuna => comuna.Codigo.ToString() == cmb_comuna.SelectedValue);
-                Comuna newComunaEmp = new Comuna();
+                ComunaEntity newComunaEmp = new ComunaEntity();
                 newComunaEmp.Codigo = comunaSeleccion.Codigo;
                 newComunaEmp.Nombre = comunaSeleccion.Nombre;
                 nuevoEmpleado.Direccion.Comuna = newComunaEmp;
@@ -167,8 +167,8 @@ namespace Presentacion.app.site
                 nuevoEmpleado.Remuneracion = Int32.Parse(txt_remuneracion.Text);
                 nuevoEmpleado.FechaNacimiento = DateTime.Parse(txt_fecha_nacimiento.Text);
 
-                List<Empleado> listaEmpleados = (List<Empleado>)Session["empleados"];
-                Empleado updateEmp = (Empleado)Session["updateEmp"];
+                List<EmpleadoEntity> listaEmpleados = (List<EmpleadoEntity>)Session["empleados"];
+                EmpleadoEntity updateEmp = (EmpleadoEntity)Session["updateEmp"];
 
                 if (updateEmp == null)
                 {
@@ -179,17 +179,17 @@ namespace Presentacion.app.site
                     }
                     else
                     {
-                        empleados = new List<Empleado>();
+                        empleados = new List<EmpleadoEntity>();
                         empleados.Add(nuevoEmpleado);
                     }
-                    lbl_mensaje.Text = "Empleado registrado exitosamente.";
+                    lbl_mensaje.Text = "EmpleadoEntity registrado exitosamente.";
                     lbl_mensaje.CssClass = "green-mesage";
 
                 }
                 else
                 {
                     //empleados.FirstOrDefault(
-                    //       empleado => empleado.Nombres == nuevoEmpleado.Nombres).TipoEmpleado = nuevoEmpleado.TipoEmpleado;
+                    //       empleado => empleado.Nombres == nuevoEmpleado.Nombres).TipoEmpleadoEntity = nuevoEmpleado.TipoEmpleadoEntity;
                     empleados.FirstOrDefault(
                         empleado => empleado.Nombres == nuevoEmpleado.Nombres).Remuneracion = nuevoEmpleado.Remuneracion;
                     empleados.FirstOrDefault(

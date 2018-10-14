@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="libreria\Comuna.cs" />
-    <Compile Include="libreria\Direccion.cs" />
-    <Compile Include="libreria\Empleado.cs" />
-    <Compile Include="libreria\TipoEmpleado.cs" />
+    <Compile Include="dao\entity\ComunaEntity.cs" />
+    <Compile Include="dao\entity\DireccionEntity.cs" />
+    <Compile Include="dao\entity\EmpleadoEntity.cs" />
+    <Compile Include="dao\entity\TipoEmpleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

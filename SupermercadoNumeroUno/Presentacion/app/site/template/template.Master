@@ -54,7 +54,7 @@
 				class="material-icons">menu</i> Registro De Empleados
 			</a> <a id="btn-menu-close" class="close open-close" href="#"
 				onclick="fn_menu_hidden()"> <i class="material-icons">menu
-					</i>Registro De Empleados
+					</i>Sistema de Registros
 			</a>
 		</div>
 		<div id="pnl-body" style="max-width:600px;margin:auto;margin-top: 10px;">

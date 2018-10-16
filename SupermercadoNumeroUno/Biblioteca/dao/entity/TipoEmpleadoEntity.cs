@@ -8,7 +8,7 @@ namespace Biblioteca.libreria
 {
     public class TipoEmpleadoEntity
     {
-        private string codigo;
+        private int codigo;
         private string nombre;
 
         public TipoEmpleadoEntity()
@@ -16,7 +16,7 @@ namespace Biblioteca.libreria
 
         }
 
-        public string Codigo { get => codigo; set => codigo = value; }
+        public int Codigo { get => codigo; set => codigo = value; }
         public string Nombre { get => nombre; set => nombre = value; }
     }
 }

@@ -51,7 +51,7 @@
 		<div id="pnl-title" class="container-title">
 			<a id="btn-menu-open" class="open open-close"
 				href="javascript:void(0)" onclick="fn_menu_show()"> <i
-				class="material-icons">menu</i> Registro De Empleados
+				class="material-icons">menu</i> Sistema de Registros
 			</a> <a id="btn-menu-close" class="close open-close" href="#"
 				onclick="fn_menu_hidden()"> <i class="material-icons">menu
 					</i>Sistema de Registros

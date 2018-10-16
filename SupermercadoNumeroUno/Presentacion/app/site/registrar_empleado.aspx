@@ -52,37 +52,8 @@
                DataTextField="Nombre">
             </asp:DropDownList>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-50">
-            <span>DIRECCION</span>
-        </div>
-        <div class="col-50">
-            <asp:TextBox ID="txt_nombre_calle" runat="server"
-                value="" placeholder="Calle">
-            </asp:TextBox>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-50">
-            <span>NUMERO</span>
-        </div>
-        <div class="col-50">
-            <asp:TextBox ID="txt_numero" runat="server" TextMode="Number"
-                value="" placeholder="000">
-            </asp:TextBox>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-50">
-            <span>COMUNA</span>
-        </div>
-        <div class="col-50">
-            <asp:DropDownList ID="cmb_comuna" runat="server" DataValueField="Codigo"
-               DataTextField="Nombre">
-            </asp:DropDownList>
-        </div>
-    </div>
+    </div>    
+    
     <div class="row">
         <div class="col-50">
             <span>TELEFONO</span>

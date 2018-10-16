@@ -72,7 +72,7 @@ namespace Presentacion.app.site
             string fechaNacimiento = row.Cells[10].Text;
 
             EmpleadoEntity actualizarEmp = new EmpleadoEntity();
-            actualizarEmp.Direccion = new DireccionEntity();
+            
 
             actualizarEmp.Nombres = nombres;
             actualizarEmp.ApellidoPaterno = apePaterno;
@@ -80,12 +80,7 @@ namespace Presentacion.app.site
             actualizarEmp.Run = run;
             TipoEmpleadoEntity tipoEmp = new TipoEmpleadoEntity();
             tipoEmp.Nombre = tipoEmpleados;
-            actualizarEmp.TipoEmpleado = tipoEmp;
-            actualizarEmp.Direccion.NombreCalle = calle;
-            actualizarEmp.Direccion.Numero = Int32.Parse(numero);
-            ComunaEntity comu = new ComunaEntity();
-            comu.Nombre = comuna;
-            actualizarEmp.Direccion.Comuna = comu;
+            actualizarEmp.TipoEmpleado = tipoEmp;            
             actualizarEmp.Telefono = Int32.Parse(telefono);
             actualizarEmp.Remuneracion = Int32.Parse(remuneracion);
             actualizarEmp.FechaNacimiento = DateTime.Parse(fechaNacimiento);

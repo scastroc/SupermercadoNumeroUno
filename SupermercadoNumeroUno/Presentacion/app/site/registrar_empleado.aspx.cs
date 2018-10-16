@@ -12,7 +12,7 @@ namespace Presentacion.app.site
     {
         private List<TipoEmpleadoEntity> tipos;
         private List<EmpleadoEntity> empleados;
-        private List<ComunaEntity> comunas;
+        
         
 
         protected void Page_Load(object sender, EventArgs e)
@@ -23,7 +23,7 @@ namespace Presentacion.app.site
             if (!IsPostBack)
             {
                 cargarTipoEmpleados();
-                cargarComunas();
+                
 
                 EmpleadoEntity updateEmp = (EmpleadoEntity)Session["updateEmp"];
 
@@ -34,9 +34,7 @@ namespace Presentacion.app.site
                     txt_apellidoMaterno.Text = updateEmp.ApellidoMaterno.ToString();
                     txt_run.Text = updateEmp.Run.ToString();
                     txt_telefono.Text = updateEmp.Telefono.ToString();
-                    txt_remuneracion.Text = updateEmp.Remuneracion.ToString();
-                    txt_nombre_calle.Text = updateEmp.Direccion.NombreCalle.ToString();
-                    txt_numero.Text = updateEmp.Direccion.Numero.ToString();
+                    txt_remuneracion.Text = updateEmp.Remuneracion.ToString();                    
                     txt_fecha_nacimiento.Text = updateEmp.FechaNacimiento.ToString("yyyy-MM-dd");
                     txt_fecha_nacimiento.DataBind();
                     //cmb_tipo_empleado.Text = updateEmp.TipoEmpleadoEntity.Nombre.ToString();
@@ -105,34 +103,7 @@ namespace Presentacion.app.site
             Session["tipoEmpleados"] = tipos;
         }
 
-        private void cargarComunas()
-        {
-
-            ComunaEntity santiago = new ComunaEntity();
-            santiago.Codigo = 1;
-            santiago.Nombre = "Santiago";
-
-            ComunaEntity maipu = new ComunaEntity();
-            maipu.Codigo = 2;
-            maipu.Nombre = "Maipu";
-
-            ComunaEntity penaflor = new ComunaEntity();
-            penaflor.Codigo = 3;
-            penaflor.Nombre = "Peñaflor";
-
-            comunas = new List<ComunaEntity>();
-            comunas.Add(santiago);
-            comunas.Add(maipu);
-            comunas.Add(penaflor);
-
-            cmb_comuna.DataSource = comunas;
-            cmb_comuna.DataBind();
-
-            Session["comunas"] = comunas;
-
-            
-
-        }
+        
 
         protected void btn_registrar_Click(object sender, EventArgs e)
         {
@@ -140,8 +111,7 @@ namespace Presentacion.app.site
             {
                 validar();
 
-                EmpleadoEntity nuevoEmpleado = new EmpleadoEntity();
-                nuevoEmpleado.Direccion = new DireccionEntity();
+                EmpleadoEntity nuevoEmpleado = new EmpleadoEntity();                
 
                 nuevoEmpleado.Nombres = txt_nombres.Text;
                 nuevoEmpleado.ApellidoPaterno = txt_apellidoPaterno.Text;
@@ -154,15 +124,7 @@ namespace Presentacion.app.site
                 TipoEmpleadoEntity newTipoEmp = new TipoEmpleadoEntity();
                 newTipoEmp.Nombre = tipoEmpSeleccion.Nombre;
                 newTipoEmp.Codigo = tipoEmpSeleccion.Codigo;
-                nuevoEmpleado.TipoEmpleado = newTipoEmp;
-                nuevoEmpleado.Direccion.NombreCalle = txt_nombre_calle.Text;
-                nuevoEmpleado.Direccion.Numero = Int32.Parse(txt_numero.Text);
-                ComunaEntity comunaSeleccion = ((List<ComunaEntity>)Session["comunas"]).FirstOrDefault(
-                    comuna => comuna.Codigo.ToString() == cmb_comuna.SelectedValue);
-                ComunaEntity newComunaEmp = new ComunaEntity();
-                newComunaEmp.Codigo = comunaSeleccion.Codigo;
-                newComunaEmp.Nombre = comunaSeleccion.Nombre;
-                nuevoEmpleado.Direccion.Comuna = newComunaEmp;
+                nuevoEmpleado.TipoEmpleado = newTipoEmp;                
                 nuevoEmpleado.Telefono = Int32.Parse(txt_telefono.Text);
                 nuevoEmpleado.Remuneracion = Int32.Parse(txt_remuneracion.Text);
                 nuevoEmpleado.FechaNacimiento = DateTime.Parse(txt_fecha_nacimiento.Text);

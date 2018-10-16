@@ -96,6 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\css\style.css" />
+    <Content Include="app\site\home.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -141,6 +142,13 @@
     </Compile>
     <Compile Include="app\site\buscar_empleado.aspx.designer.cs">
       <DependentUpon>buscar_empleado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="app\site\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="app\site\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="app\site\listar_empleado.aspx.cs">
       <DependentUpon>listar_empleado.aspx</DependentUpon>

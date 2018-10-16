@@ -40,8 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="dao\entity\ComunaEntity.cs" />
-    <Compile Include="dao\entity\DireccionEntity.cs" />
     <Compile Include="dao\entity\EmpleadoEntity.cs" />
     <Compile Include="dao\entity\TipoEmpleado.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

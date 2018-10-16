@@ -23,6 +23,11 @@
 		</div>
 
 		<ul>
+            <li style="float: left; width: 100%;"><a
+				href="home.aspx"
+				style="width: 100%;"> <i style="float: left;"
+					class="material-icons">list</i><span class="menu-name">Home</span>
+			</a></li>
 			<li style="float: left; width: 100%;"><a
 				href="registrar_empleado.aspx"
 				style="width: 100%;"> <i style="float: left;"

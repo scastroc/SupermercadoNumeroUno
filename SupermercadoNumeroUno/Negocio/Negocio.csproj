@@ -44,8 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="business\exception\BusinessException.cs" />
-    <Compile Include="business\rules\ComunaBusiness.cs" />
-    <Compile Include="business\rules\DireccionBusiness.cs" />
     <Compile Include="business\rules\EmpleadoBusiness.cs" />
     <Compile Include="business\rules\generic\EmptyRule.cs" />
     <Compile Include="business\rules\TipoEmpleadoBusiness.cs" />

@@ -58,33 +58,6 @@ namespace Presentacion.app.site {
         protected global::System.Web.UI.WebControls.DropDownList cmb_tipo_empleado;
         
         /// <summary>
-        /// Control txt_nombre_calle.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_nombre_calle;
-        
-        /// <summary>
-        /// Control txt_numero.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_numero;
-        
-        /// <summary>
-        /// Control cmb_comuna.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList cmb_comuna;
-        
-        /// <summary>
         /// Control txt_telefono.
         /// </summary>
         /// <remarks>

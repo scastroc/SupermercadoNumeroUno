@@ -12,8 +12,7 @@ namespace Biblioteca.libreria
         private string apellidoPaterno;
         private string apellidoMaterno;
         private string run;
-        private TipoEmpleadoEntity tipoEmpleado;
-        private DireccionEntity direccion;
+        private TipoEmpleadoEntity tipoEmpleado;        
         private int telefono;
         private int remuneracion;
         private DateTime fechaNacimiento;
@@ -88,18 +87,7 @@ namespace Biblioteca.libreria
             }
         }
 
-        public DireccionEntity Direccion
-        {
-            get
-            {
-                return direccion;
-            }
-
-            set
-            {
-                direccion = value;
-            }
-        }
+        
 
         public int Telefono
         {
